@@ -33,4 +33,4 @@ jobs:
       - name: Installing surge
         run: npm install --global surge
       - name: deploying using surge
-        run:  surge ./ clammy-nose.surge.sh --token $ {{secrets.SURGE_TOKEN2}}
+        run:  surge ./ clammy-nose.surge.sh --token "bc6ab896d873a73c6ec3629268b293c2"
